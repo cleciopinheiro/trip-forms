@@ -12,82 +12,75 @@
 
 <body>
   <form action="">
-    <h1>User Forms</h1>
+    <h1>Trip Forms</h1>
     <div class="info-box">
-      <label for="">
+      <label for="name">
         Nome:
-        <input type="text" name="" id="" placeholder="Name">
+        <input type="text" name="name" id="name">
       </label>
 
-      <label for="">
-        Sobrenome:
-        <input type="text" name="" id="" placeholder="Last name">
-      </label>
-    </div>
-
-    <div class="info-box">
-      <label for="">
+      <label for="email">
         Email:
-        <input type="email" name="" id="">
+        <input type="email" name="email" id="email">
       </label>
     </div>
+
 
     <hr>
 
     
+    <h3>Detalhes da Viagem</h3>
     <div class="details-box">
-      <h3>Detalhes da Viagem</h3>
-      <label for="">
+      <label for="class-trip">
         Classe da Viagem
-        <select name="" id="">
-          <option value="Selecione">Selecione</option>
-          <option value="Primeira Classe">Primeira Classe</option>
-          <option value="Classe Empresarial">Classe Empresarial</option>
-          <option value="Classe Econômica">Classe Econômica</option>
+        <select  id="class-trip">
+          <option id="select" value="Selecione">Selecione</option>
+          <option id="first-class" value="Primeira Classe">Primeira Classe</option>
+          <option id="class-enterprise" value="Classe Empresarial">Classe Empresarial</option>
+          <option id="eco-class" value="Classe Econômica">Classe Econômica</option>
         </select>
       </label>
     </div>
 
+    <h3>Campanhia Aérea</h3>
     <div class="details-box">
-      <h3>Campanhia Aérea</h3>
-      <label for="">
-        <input type="radio" name="" id="">
+      <label for="azul">
+        <input type="radio" name="radio" id="azul">
         Azul
       </label>
 
-      <label for="">
-        <input type="radio" name="" id="">
+      <label for="gol">
+        <input type="radio" name="radio" id="gol">
         Gol
       </label>
 
-      <label for="">
-        <input type="radio" name="" id="">
+      <label for="latam">
+        <input type="radio" name="radio" id="latam">
         Latam
       </label>
 
 
-      <label for="">
-        <input type="radio" name="" id="">
+      <label for="american">
+        <input type="radio" name="radio" id="american">
         American Airlines
       </label>
     </div>
 
     <hr>
 
+    <h3>Informações adicionais</h3>
     <div class="details-box">
-      <h3>Informações adicionais</h3>
-      <p>Caso tenha algum pedido adicional, descreva na área abaixo:</p>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <textarea name="textArea" id="textArea" cols="30" rows="10"></textarea>
     </div>
 
     <div class="details-box">
-      <label for="">
-        <input type="checkbox" name="" id="">
+      <label for="check">
+        <input type="checkbox" name="" id="check">
         Aceito todos os termos de conduta da Trip Forms.
       </label>
     </div>
     
-    <button type="button">Enviar</button>
+    <button id="button-summit" type="button">Enviar</button>
   </form>
 </body>
 
